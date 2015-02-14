@@ -8,3 +8,15 @@
 ```sh
 $ npm install soundex-phonetics
 ```
+
+## Usage
+
+```js
+var soundex = require( 'soundex-phonetics' )
+```
+
+```js
+if( soundex( 'Ekzampul' ) === soundex( 'Example' ) ) {
+  // It sounds similar!
+}
+```
