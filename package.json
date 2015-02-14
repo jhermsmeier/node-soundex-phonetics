@@ -1,0 +1,29 @@
+{
+  "name": "soundex-phonetics",
+  "version": "1.0.0",
+  "description": "Soundex phonetic algorithm",
+  "license": "MIT",
+  "keywords": [
+    "soundex",
+    "phonetics"
+  ],
+  "main": "lib/soundex",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "dependencies": {},
+  "devDependencies": {
+    "matcha": "~0.6.0",
+    "mocha": "~2.1.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "bench": "matcha"
+  },
+  "homepage": "https://github.com/jhermsmeier/node-soundex-phonetics",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/node-soundex-phonetics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-soundex-phonetics/issues"
+  }
+}
